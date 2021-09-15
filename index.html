@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/loopj-jquery-simple-slider-71115d9/js/simple-slider.js"></script>
+    <link href="/loopj-jquery-simple-slider-71115d9/css/simple-slider.css" rel="stylesheet" type="text/css" />
+    <!-- <link rel="stylesheet" href="jquery-ui.min.css">
+    <script src="external/jquery/jquery.js"></script>
+    <script src="jquery-ui.min.js"></script> -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class='header'>FoxyLlamas 9.1 Shaman Mastery Calculator</div>
+    </div>
+
+    <div class='stat-container'>
+        <form>
+            <p class='slider-title'>Target's Health Points %</p>
+            <div class='health-points'>
+                <input type="text" data-slider="true" id='hp-slider'>
+                <p id='percent'>50%</p>
+            </div>
+        </form>
+        <div class='gear-set'>
+            <div class='gear-set1'>
+                <!--
+                    intellect
+                    verse
+                    mastery
+                    crit
+                    stamina
+                  -->
+                  <form class='gs-form'>
+                      <label class='gs-label'>Intellect</label>
+                      <input class="gs-input" id="gs1-intellect" placeholder="Intellect"/>
+
+                      <label class='gs-label'>Versatility</label>
+                      <input class="gs-input" id="gs1-verse" placeholder="Versatility"/>
+
+                      <label class='gs-label'>Mastery</label>
+                      <input class="gs-input" id="gs1-mastery" placeholder="Mastery"/>
+
+                      <label class='gs-label'>Intellect</label>
+                      <input class="gs-input" id="gs1-crit" placeholder="Crit"/>
+
+                      <button type="submit">Calculate</button>
+                  </form>
+            </div>
+            <div class='gear-set2'>
+
+            </div>
+        </div>
+        <div class='spells'>
+            <div class='earthshield'></div>
+            <div class='healing-surge'>
+                <p id='hs'>Healing Surge: 0</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,50 @@
+body{
+    background-color:#17a6e8;
+}
+.container{
+    width:80%;
+    margin:auto;
+    border:1px solid black;
+
+}
+.header{
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size:3em;
+    height:100px;
+    border:1px solid black;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.stat-container{
+    border:1px solid red;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    flex-direction: column;
+}
+.slider-title{
+    border:1px solid yellow;
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.health-points{
+    display:flex
+}
+.health-points p {
+    font-size:30px;
+    font-weight: bold;
+}
+.gs-form{
+    display:flex;
+    flex-direction: column;
+}
+
